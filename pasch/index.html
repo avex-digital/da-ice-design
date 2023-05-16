@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Da-iCE 動画サブスクアプリ『Da-iCE CUBE』</title>
+
+    
+    <meta name="title" content="Da-iCE 動画サブスクアプリ『Da-iCE CUBE』">
+    <meta name="description" content="過去のライブ映像や撮り下ろしバラエティなど盛り沢山！ライブ生配信チケットもお得に！月額980円(税込)！">
+    <meta name="keywords" content="Da-iCE,サブスク,Da-iCE CUBE,CUBE,ダイス,ダイスキューブ,キューブ,だいす,だいすきゅーぶ,きゅーぶ,アプリ">
+    <meta name="og:title" content="Da-iCE 動画サブスクアプリ『Da-iCE CUBE』">
+    <meta name="og:site_name" content="『Da-iCE CUBE』">
+    <meta name="og:description" content="Da-iCE 動画サブスクアプリ『Da-iCE CUBE』アプリご利用前にWEBで会員登録！">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/front/img/favicon.ico">
+    <link rel="stylesheet" href="./static/front/css/normalize.css">
+    <link rel="stylesheet" href="./static/front/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- jQuery-datetimepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"
+        integrity="sha512-AIOTidJAcHBH2G/oZv9viEGXRqDNmfdPVPYOYKGy3fti0xIplnlgMHUGfuNRzC6FkzIo0iIxgFnr9RikFxK+sw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css"
+        integrity="sha512-bYPO5jmStZ9WI2602V2zaivdAnbAhtfzmxnEGh9RwtlI00I9s8ulGe4oBa5XxiC6tCITJH/QG70jswBhbLkxPw=="
+        crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome 4.7 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome 5 Free -->
+    <script src="https://kit.fontawesome.com/ec9655f404.js" crossorigin="anonymous"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KZXJLFB');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__inner">
+        <div class="header__logo">
+            <a href="/"><img src="./static/front/img/Da-iCE CUBE_logo_1_color.png" alt="da-ice-cube"></a>
+        </div>
+        <div class="header__side-menu">
+            <p id="side-menu" class="header__side-menu-icon">
+                <img src="./static/front/img/sidemenu.png" alt="side-menu">
+            </p>
+        </div>
+    </div>
+</header>
+<nav id="js-navigation" class="sidenavigation">
+    <div class="sidenavigation__bg"></div>
+    <div class="sidenavigation__contents">
+        <div class="sidenavigation__close">
+            <p class="sidenavigation__close-text"></p>
+            <p id="js-close" class="sidenavigation__close-icon"><img src="./static/front/img/icon-close.svg" alt="close"></p>
+        </div>
+        <ul class="sidenavigation__list">
+            
+            
+            <li class="sidenavigation__list-item"><a href="/account">会員／決済情報</a></li>
+            <li class="sidenavigation__list-item"><a href="https://plus-id.jp/menu.html">＋ID マイページ</a></li>
+                
+                <li class="sidenavigation__list-item"><a href="/account/social_tipping">PASCHコイン</a></li>
+                
+                
+                <li class="sidenavigation__list-item"><a href="/real_fc">a-i連携</a></li>
+                
+            
+            <li class="sidenavigation__list-item"><a href="/help">ヘルプ</a></li>
+            <li class="sidenavigation__list-item"><a href="/terms">利用規約</a></li>
+            <li class="sidenavigation__list-item"><a href="/info/company">特定商取引法に基づく表記</a></li>
+            
+            <li class="sidenavigation__list-item"><a href="/logout">ログアウト</a></li>
+            
+        </ul>
+    </div>
+</nav>
+        
+
+        
+
+        <section class="maincontents">
+            <div class="mainvisual">
+                <div class="mainvisual__inner mainvisual_dclle__inner">
+                    <img class="mainvisual__image" src="./static/front/img/LIVE-ESSENTIALS.jpg" alt="da-ice-cube">
+                </div>
+            </div>
+            <div class="maincontents__inner">
+                <div class="subcontents">
+                    <h2 class="subcontents__title">『Da-iCE CUBE（ダイスキューブ）』とは？</h2>
+                    <div class="whiats-daicecube">
+                        <div class="daicecube__inner">
+                            <p class="whiats-daicecube__text">
+                                Da-iCE初の動画見放題アプリ！<br>
+                                過去のライブ映像や撮り下ろしバラエティなど盛り沢山！<br>
+                                ライブ生配信チケットもお得に！<br>
+                            </p>
+                            <div class="whiats-daicecube__imagewrapp">
+                                <img src="./static/front/img/da-ice-cube-logo.png" alt="da-ice-cube">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="buttoncontents">
+                        
+                        <div class="button-login top-button top-button-left">
+                            <a class="button" href="/real_fc">「a-i」会員連携</a>
+                        </div>
+                        
+
+                        
+                        <div class="button-login top-button">
+                            <a class="button is-disable" href="#">　　入会済　　</a>
+                        </div>
+                        
+                    </div>
+
+
+
+
+
+                    <h1 class="titlecontents__title pt-3">
+                        月額980円で動画見放題！
+                    </h1>
+                    <div class="whiats-daicecube">
+                        <video controls class="top_video" poster="./static/front/img/cube_pr.00_00_02_55.001.jpg">
+                            <source src="https://d1xhntwwey8e9g.cloudfront.net/cube_pr.mp4">
+                            <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+                        </video>
+                    </div>
+                </div>
+                <div class="buttoncontents pb-5">
+                    <h1 class="titlecontents__title">
+                        学園を舞台にDa-iCEとスタッフが大暴れ？！<br />
+                        『Da-iCE CUBE』オリジナル限定バラエティー<br class="campaign-layout-sp">「ロクメン学園」
+                    </h1>
+                    <div class="whiats-daicecube pb-3">
+                        <video controls class="top_video" poster="./static/front/img/rokumen_teaser_001.jpg">
+                            <source src="https://d1xhntwwey8e9g.cloudfront.net/rokumen_teaser.mp4">
+                            <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+                        </video>
+                    </div>
+                    <div class="howtojoin">
+                        <h2 class="howtojoin__title">入会方法</h2>
+                        <ul class="howtojoin__list">
+                            <li class="howtojoin__list-item howtojoin__step1">
+                                <div class="howtojoin__list-item-contents">
+                                    <div class="howtojoin__list-item-head">1. ＋IDを作成</div>
+                                    <div class="howtojoin__list-item-main">
+                                        <img src="static/front/img/id_icon.png" alt="">
+                                        <p>新規登録</p>
+                                    </div>
+                                </div>
+                                <div class="howtojoin__list-item-text">
+                                    <a href="/register" class="howtojoin__list-item-text-link">新規登録ページ</a>から＋IDを作成し、本サイトに＋IDでログインします。
+                                </div>
+                            </li>
+                            <li class="howtojoin__list-item howtojoin__step2">
+                                <div class="howtojoin__list-item-contents">
+                                    <div class="howtojoin__list-item-head">2. 入会</div>
+                                    <div class="howtojoin__list-item-main">
+                                        <img src="static/front/img/step2_pc.png" alt=""
+                                            class="howtojoin__list-item-img--pc">
+                                        <img src="static/front/img/step2_sp.png" alt=""
+                                            class="howtojoin__list-item-img--sp">
+                                    </div>
+                                </div>
+                                <div class="howtojoin__list-item-text">
+                                    本サイトに設置された「入会」ボタンよりお手続き<span class="howtojoin__list-item-text--sml">※</span>を行います。
+                                </div>
+                            </li>
+                            <li class="howtojoin__list-item howtojoin__step3">
+                                <div class="howtojoin__list-item-contents">
+                                    <div class="howtojoin__list-item-head">3. アプリをダウンロード</div>
+                                    <div class="howtojoin__list-item-main">
+                                        <div class="howtojoin__list-item-logo">
+                                            <img src="static/front/img/da-ice_cube_icon.png">
+                                            <p>Da-iCE CUBE</p>
+                                        </div>
+                                        <div class="howtojoin__list-item-app">
+                                            <div class="howtojoin__list-item-ios">
+                                                <div class="howtojoin__list-item-qr">
+                                                    <a href="https://apps.apple.com/ja/app/id1631510534">
+                                                        <img src="static/front/img/da-ice_cube_apple_qr.png">
+                                                    </a>
+                                                </div>
+                                                <div class="app-store-badge">
+                                                    <a href="https://apps.apple.com/ja/app/id1631510534">
+                                                        <img src="static/front/img/app-store-badge.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="howtojoin__list-item-android">
+                                                <div class="howtojoin__list-item-qr">
+                                                    <a href="https://play.google.com/store/apps/details?id=fan.pasch.daice">
+                                                        <img src="static/front/img/da-ice_cube_google_qr.png">
+                                                    </a>
+                                                </div>
+                                                <div class="google-play-badge">
+                                                    <a href="https://play.google.com/store/apps/details?id=fan.pasch.daice">
+                                                        <img src="static/front/img/google-play-badge.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="howtojoin__list-item-text">アプリをダウンロードし、＋IDでログインしてご利用開始！</div>
+                            </li>
+                        </ul>
+                        <div class="howtojoin__annottaion">
+                            ※ クレジットカード、またはキャリア決済がご利用いただけます。また、アプリ内から入会する場合はアプリ内課金をご利用いただけます。
+                        </div>
+                    </div>
+                    
+                    <div class="button-login top-button top-button-left">
+                        <a class="button" href="/real_fc">「a-i」会員連携</a>
+                    </div>
+                    
+
+                    
+                    <div class="button-login top-button">
+                        <a class="button is-disable" href="#">　　入会済　　</a>
+                    </div>
+                    
+                </div>
+                <div class="purchasecontents">
+                    <div class="purchasecontents__inner">
+                        <h2 class="purchasecontents__title">応援チャットで生配信を<br>盛り上げよう！</h2>
+                        <div class="purchasecontents__info">
+                            <p class="purchasecontents__text">
+                                生配信時のチャット機能において、コメントを装飾したり、コメントと一緒にお花を贈ることができます。コメントとお花であなたの想いをDa-iCEに届けましょう！</p>
+                            <img src="./static/front/img/about_img.png" alt="" class="purchasecontents__img">
+                        </div>
+                        <div class="purchasecontents__button">
+                            <a href="/payment/social_tipping/list" class="purchasecontents__button-link">PASCHコインを購入</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subscribe-complete py-3">
+                    <div class="container-fluid">
+                        <div class="app-icon-wrapper d-flex justify-content-center align-items-center">
+                            <div class="app-icon">
+                                <img class="" src="/static/front/img/app_icon_web.png">
+                            </div>
+                            <div class="download-icons d-flex flex-column flex-md-row">
+                                <div class="app-store d-flex flex-column">
+                                    <a href="https://apps.apple.com/ja/app/id1631510534">
+                                        <img class="store-img" src="/static/front/img/app-store-badge.svg">
+                                    </a>
+                                    <img class="qrcode" src="/static/front/img/da-ice_cube_apple_qr.png">
+                                </div>
+                                <div class="google-play d-flex flex-column">
+                                    <a href="https://play.google.com/store/apps/details?id=fan.pasch.daice">
+                                        <img class="store-img" src="/static/front/img/google-play-badge.png">
+                                    </a>
+                                    <img class="qrcode" src="/static/front/img/da-ice_cube_google_qr.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notescontents">
+                    <h2 class="notescontents__title">注意事項</h2>
+                    <div class="notescontents__inner">
+                        <ul class="notescontents__list is-dics">
+                            <li class="notescontents__list-item">利用可能なお支払い方法については、以下の通りです。</li>
+                        </ul>
+                        <p class="notescontents__text">
+                            ＜月額会費＞<br />
+                            　Webからのご登録の場合：クレジットカード、キャリア決済（docomo、au、SoftBank）<br />
+                            　アプリからのご登録の場合：アプリ内課金（Apple、Google）
+                        </p>
+                        <p class="notescontents__text">
+                            ＜個別課金コンテンツ・応援チャット＞<br />
+                            　クレジットカード決済のみ
+                        </p>
+                        <ul class="notescontents__list is-dics">
+                            <li class="notescontents__list-item">『Da-iCE CUBE』のコンテンツはアプリでのみお楽しみいただけます。</li>
+                            <li class="notescontents__list-item">一部のOSや端末には対応していないことがあります。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer class="footer d-flex justify-content-center align-items-center">
+    <div>
+        <div>
+            ©︎ 2022 Avex Digital Inc
+        </div>
+    </div>
+</footer>
+<script src="/static/front/js/common.js"></script>
+</html>
