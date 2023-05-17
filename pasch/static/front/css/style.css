@@ -3640,5 +3640,6 @@ margin-bottom: 0;
 
 .section-ticket .subcontents__title2,
 .contentsaftertalk .subcontents__title2 {
-  font-size: 22px;
+  font-size: 26px;
+  text-align: left;
 }
