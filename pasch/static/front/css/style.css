@@ -259,7 +259,7 @@ img {
 .titlecontents__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 24px;
   line-height: 26px;
   margin-bottom: 20px !important;
   text-align: center;
@@ -3429,5 +3429,13 @@ margin-bottom: 0;
 @media only screen and (min-width: 650px) {
   .howtojoin__annottaion {
     margin-bottom: 31px;
+  }
+}
+
+
+@media only screen and (min-width: 650px) {
+  .livecontents__textarea {
+    display: flex;
+    align-items: center;
   }
 }
