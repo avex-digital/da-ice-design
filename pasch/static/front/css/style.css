@@ -3563,6 +3563,11 @@ margin-bottom: 0;
   line-height: 1.5;
 }
 
+.contentsaftertalk {
+  max-width: 726px;
+  margin: 0 auto;
+}
+
 .contentsaftertalk__ticket {
   margin-top: 40px;
 }
@@ -3626,4 +3631,14 @@ margin-bottom: 0;
   display: inline-block;
   width: 100%;
   max-width: 375px;
+}
+
+.section-ticket {
+  max-width: 726px;
+  margin: 0 auto;
+}
+
+.section-ticket .subcontents__title2,
+.contentsaftertalk .subcontents__title2 {
+  font-size: 22px;
 }
