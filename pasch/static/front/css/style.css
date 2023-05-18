@@ -259,7 +259,7 @@ img {
 .titlecontents__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 24px;
   line-height: 26px;
   margin-bottom: 20px !important;
   text-align: center;
@@ -276,6 +276,15 @@ img {
   text-align: center;
 }
 
+.campaign .titlecontents__title {
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 650px) {
+  .campaign .titlecontents__title {
+    font-size: 30px;
+  }
+}
 
 .news_header {
   font-size: 16px;
@@ -432,7 +441,8 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 26px;
+  line-height: 1.5;
 }
 
 
@@ -823,8 +833,8 @@ img {
 }
 
 .campaign__text {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .campaign__text+.campaign__text {
@@ -2728,7 +2738,7 @@ div.subscribe-complete .fc-title-list {
 
 /* 2022.11.26 */
 .christmas-party .contentsimage {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 
@@ -2940,10 +2950,6 @@ div.subscribe-complete .fc-title-list {
 @media screen and (max-width: 649px){
   .sp-none {
     display: none;
-  }
-
-  .christmas-party .contentsimage__thumbnail {
-    max-width: 254px;
   }
 
   .christmas-party .contentsimage_nl {
@@ -3430,4 +3436,221 @@ margin-bottom: 0;
   .howtojoin__annottaion {
     margin-bottom: 31px;
   }
+}
+
+
+@media only screen and (min-width: 650px) {
+  .livecontents__textarea {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.maindicription__wrapper {
+  margin-bottom: 80px;
+}
+
+.maindicription__text {
+  margin-bottom: 40px;
+}
+
+.subcontents__title__h3 {
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.ticketdata .subcontents__title2 {
+  font-size: 22px;
+  text-align: left;
+}
+@media only screen and (min-width: 650px) {
+  .ticketdata .subcontents__title2 {
+    text-align: left;
+  }
+}
+
+.stagelist {
+  margin: 20px 0 20px;
+}
+
+.stagelist__item__text {
+  font-size: 16px;
+}
+
+.stagelist__item {
+  margin-bottom: 16px;
+}
+
+.noticelist {
+  margin: 0;
+}
+
+.subcontents__inner {
+  margin-bottom: 40px;
+}
+
+.noticelist__text {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.ticketdata .subcontents__title2{
+  margin-bottom: 16px;
+}
+
+.ticketdata__discription {
+  margin-bottom: 40px;
+}
+
+.campaignticket {
+  background-color: #121E20;
+  max-width: 726px;
+  margin: 0 auto;
+}
+
+.campaignticket__inner {
+  border: 1px solid #93ECFA;
+  border-radius: 4px;
+  padding: 20px;
+}
+@media only screen and (min-width: 650px) {
+  .campaignticket__inner {
+    padding: 40px;
+  }
+}
+
+.campaignticket .campaignticket__title {
+  color: #97E5FA;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 650px) {
+  .campaignticket .campaignticket__title {
+    font-size: 24px;
+  }
+}
+
+.campaignticket__discription__title,
+.campaignticket__discription__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 650px) {
+  .campaignticket__discription__title,
+  .campaignticket__discription__text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+.campaignticket__text {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 650px) {
+  .campaignticket__text {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+}
+
+.subcontents p {
+  line-height: 1.5;
+}
+
+.contentsaftertalk {
+  max-width: 726px;
+  margin: 0 auto;
+}
+
+.contentsaftertalk__ticket {
+  margin-top: 40px;
+}
+
+.contentsaftertalk .subcontents__title2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 650px) {
+  .contentsaftertalk .subcontents__title2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+}
+
+.contentsaftertalk__ticket__price {
+  margin-top: 40px;
+}
+
+.contentsaftertalk__ticket__text {
+  margin-bottom: 16px;
+}
+
+.contentsaftertalk__ticket .noticelist {
+  margin-bottom: 16px;
+}
+
+.priceitemlist {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 650px) {
+  .campaignticket__title .sp {
+    display: none;
+  }
+}
+.contentsaftertalk__text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.contentsaftertalk__title {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.contentsaftertalk__ticket__inner {
+  margin-top: 40px;
+}
+
+.contentsaftertalk__ticket__inner .subcontents__title2 {
+  text-align: left;
+}
+
+.campaign .bannercontents {
+  text-align: center;
+}
+
+.bannercontents .bannercontents__link {
+  display: inline-block;
+  width: 100%;
+  max-width: 375px;
+}
+
+.section-ticket {
+  max-width: 726px;
+  margin: 0 auto;
+}
+
+.section-ticket .ticketdata__title,
+.contentsaftertalk .contentsaftertalk__subtitle {
+  font-size: 26px;
+  text-align: left;
+}
+
+.contentsaftertalk .subcontents__title {
+    background: -o-linear-gradient(left, #DD49F1 3.19%, #8EFCFC 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(3.19%, #DD49F1), to(#8EFCFC));
+    background: linear-gradient(90deg, #DD49F1 3.19%, #8EFCFC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.5;  
 }
