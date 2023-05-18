@@ -3638,8 +3638,19 @@ margin-bottom: 0;
   margin: 0 auto;
 }
 
-.section-ticket .subcontents__title2,
-.contentsaftertalk .subcontents__title2 {
+.section-ticket .ticketdata__title,
+.contentsaftertalk .contentsaftertalk__subtitle {
   font-size: 26px;
   text-align: left;
+}
+
+.contentsaftertalk .subcontents__title {
+    background: -o-linear-gradient(left, #DD49F1 3.19%, #8EFCFC 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(3.19%, #DD49F1), to(#8EFCFC));
+    background: linear-gradient(90deg, #DD49F1 3.19%, #8EFCFC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.5;  
 }
